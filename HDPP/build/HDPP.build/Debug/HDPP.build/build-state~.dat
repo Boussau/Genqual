@@ -1,0 +1,1611 @@
+THDPP
+v7
+r0
+t340663165.647067
+cCheck dependencies
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Alignment.o /Users/jessielee/Documents/HDPP/Alignment.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/CondLikes.o /Users/jessielee/Documents/HDPP/CondLikes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Franchise.o /Users/jessielee/Documents/HDPP/Franchise.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/FranchiseHq.o /Users/jessielee/Documents/HDPP/FranchiseHq.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/IoManager.o /Users/jessielee/Documents/HDPP/IoManager.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/main.o /Users/jessielee/Documents/HDPP/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbBitfield.o /Users/jessielee/Documents/HDPP/MbBitfield.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbEigensystem.o /Users/jessielee/Documents/HDPP/MbEigensystem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbMath.o /Users/jessielee/Documents/HDPP/MbMath.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbRandom.o /Users/jessielee/Documents/HDPP/MbRandom.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbTransitionMatrix.o /Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Mcmc.o /Users/jessielee/Documents/HDPP/Mcmc.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItem.o /Users/jessielee/Documents/HDPP/MenuItem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItemInfo.o /Users/jessielee/Documents/HDPP/MenuItemInfo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Model.o /Users/jessielee/Documents/HDPP/Model.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Msg.o /Users/jessielee/Documents/HDPP/Msg.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_dnds.o /Users/jessielee/Documents/HDPP/Parm_dnds.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_kappa.o /Users/jessielee/Documents/HDPP/Parm_kappa.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_key.o /Users/jessielee/Documents/HDPP/Parm_key.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_length.o /Users/jessielee/Documents/HDPP/Parm_length.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_statefreqs.o /Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_subrates.o /Users/jessielee/Documents/HDPP/Parm_subrates.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_tree.o /Users/jessielee/Documents/HDPP/Parm_tree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm.o /Users/jessielee/Documents/HDPP/Parm.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/QualityScores.o /Users/jessielee/Documents/HDPP/QualityScores.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrix.o /Users/jessielee/Documents/HDPP/RateMatrix.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMap.o /Users/jessielee/Documents/HDPP/RateMatrixMap.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMngr.o /Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Restaurant.o /Users/jessielee/Documents/HDPP/Restaurant.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SeedFactory.o /Users/jessielee/Documents/HDPP/SeedFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Settings.o /Users/jessielee/Documents/HDPP/Settings.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteKey.o /Users/jessielee/Documents/HDPP/SiteKey.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteLikes.o /Users/jessielee/Documents/HDPP/SiteLikes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteModels.o /Users/jessielee/Documents/HDPP/SiteModels.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/StateSets.o /Users/jessielee/Documents/HDPP/StateSets.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Table.o /Users/jessielee/Documents/HDPP/Table.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableFactory.o /Users/jessielee/Documents/HDPP/TableFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImage.o /Users/jessielee/Documents/HDPP/TableImage.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImageFactory.o /Users/jessielee/Documents/HDPP/TableImageFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableInfo.o /Users/jessielee/Documents/HDPP/TableInfo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Util.o /Users/jessielee/Documents/HDPP/Util.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
+c000000004A5C14A700000000000016D3
+t1247548583
+s5843
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mpi.h
+c000000004A12521F000000000001AE70
+t1242714655
+s110192
+
+N/Users/jessielee/Documents/HDPP/Alignment.cpp
+c000000004E9DE333000000000000261F
+t1318970163
+s9759
+i<string>
+i<iostream>
+i<iomanip>
+i<istream>
+i<sstream>
+i<fstream>
+i"Alignment.h"
+i"MbBitfield.h"
+
+N/Users/jessielee/Documents/HDPP/Alignment.h
+c000000004E9DE306000000000000063A
+t1318970118
+s1594
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/CondLikes.cpp
+c000000004E9DE3A30000000000000894
+t1318970275
+s2196
+i<iomanip>
+i<iostream>
+i"Alignment.h"
+i"CondLikes.h"
+i"Msg.h"
+
+N/Users/jessielee/Documents/HDPP/CondLikes.h
+c000000004BA119C20000000000000218
+t1268849090
+s536
+
+N/Users/jessielee/Documents/HDPP/Franchise.cpp
+c000000004D5AFDEB00000000000045DD
+t1297808875
+s17885
+i<iomanip>
+i<iostream>
+i<map>
+i<mpi.h>
+i<string>
+i"Franchise.h"
+i"FranchiseHq.h"
+i"MbRandom.h"
+i"MenuItemInfo.h"
+i"Msg.h"
+i"Restaurant.h"
+i"Settings.h"
+i"Table.h"
+i"TableInfo.h"
+i"TableImage.h"
+i"TableImageFactory.h"
+
+N/Users/jessielee/Documents/HDPP/Franchise.h
+c000000004D5AD0540000000000000993
+t1297797204
+s2451
+i<map>
+i<set>
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/FranchiseHq.cpp
+c000000004D5C3D2E00000000000055C8
+t1297890606
+s21960
+i<mpi.h>
+i<iomanip>
+i<iostream>
+i<vector>
+i"Franchise.h"
+i"FranchiseHq.h"
+i"MbRandom.h"
+i"MenuItem.h"
+i"MenuItemInfo.h"
+i"Msg.h"
+i"Parm_tree.h"
+i"RateMatrix.h"
+i"RateMatrixMngr.h"
+i"Restaurant.h"
+i"SeedFactory.h"
+i"Settings.h"
+i"SiteLikes.h"
+i"SiteModels.h"
+i"Table.h"
+i"TableImage.h"
+i"TableImageFactory.h"
+i"TableInfo.h"
+
+N/Users/jessielee/Documents/HDPP/FranchiseHq.h
+c000000004B9EC5070000000000000E1D
+t1268696327
+s3613
+i<fstream>
+i<map>
+i<set>
+i<string>
+i<vector>
+i"MenuItem.h"
+
+N/Users/jessielee/Documents/HDPP/IoManager.cpp
+c000000004B9539BE0000000000001657
+t1268070846
+s5719
+i<iostream>
+i<dirent.h>
+i"IoManager.h"
+
+N/Users/jessielee/Documents/HDPP/IoManager.h
+c000000004BA119DA00000000000005C4
+t1268849114
+s1476
+i<string>
+i<fstream>
+
+N/Users/jessielee/Documents/HDPP/MbBitfield.cpp
+c000000004B9539C500000000000024F2
+t1268070853
+s9458
+i<iostream>
+i"MbBitfield.h"
+
+N/Users/jessielee/Documents/HDPP/MbBitfield.h
+c000000004B9403980000000000002B14
+t1267991448
+s11028
+i<iostream>
+
+N/Users/jessielee/Documents/HDPP/MbEigensystem.cpp
+c000000004B9539CF0000000000007986
+t1268070863
+s31110
+i<cmath>
+i<complex>
+i<vector>
+i"MbEigensystem.h"
+
+N/Users/jessielee/Documents/HDPP/MbEigensystem.h
+c000000004B9418520000000000002132
+t1267996754
+s8498
+i"MbMatrix.h"
+i<complex>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/MbMath.cpp
+c000000004B9539D40000000000002711
+t1268070868
+s10001
+i<cmath>
+i<iostream>
+i<vector>
+i"MbMath.h"
+i"MbMatrix.h"
+i"MbRandom.h"
+
+N/Users/jessielee/Documents/HDPP/MbMath.h
+c000000004A8FEDA30000000000000D5E
+t1250946467
+s3422
+i"MbMatrix.h"
+i<cmath>
+
+N/Users/jessielee/Documents/HDPP/MbMatrix.h
+c000000004B940E36000000000000709F
+t1267994166
+s28831
+i<iostream>
+i<iomanip>
+i<cstdlib>
+
+N/Users/jessielee/Documents/HDPP/MbRandom.cpp
+c000000004D5C3951000000000000A8D7
+t1297889617
+s43223
+i<cmath>
+i<ctime>
+i<iostream>
+i<vector>
+i"MbRandom.h"
+
+N/Users/jessielee/Documents/HDPP/MbRandom.h
+c000000004D5B199E00000000000077A4
+t1297815966
+s30628
+i<cmath>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp
+c000000004B9539EB0000000000006076
+t1268070891
+s24694
+i<complex>
+i"MbTransitionMatrix.h"
+i"MbMath.h"
+
+N/Users/jessielee/Documents/HDPP/MbTransitionMatrix.h
+c000000004B9418600000000000003174
+t1267996768
+s12660
+i<complex>
+i<vector>
+i"MbEigensystem.h"
+i"MbMatrix.h"
+
+N/Users/jessielee/Documents/HDPP/Mcmc.cpp
+c000000004B9F07C20000000000000AA5
+t1268713410
+s2725
+i<iomanip>
+i<iostream>
+i<mpi.h>
+i"MbRandom.h"
+i"Mcmc.h"
+i"Model.h"
+i"SeedFactory.h"
+i"Settings.h"
+
+N/Users/jessielee/Documents/HDPP/Mcmc.h
+c000000004BA11A260000000000000280
+t1268849190
+s640
+
+N/Users/jessielee/Documents/HDPP/MenuItem.cpp
+c000000004D5AFE6C00000000000011EB
+t1297809004
+s4587
+i"Alignment.h"
+i<iostream>
+i"Franchise.h"
+i"MenuItem.h"
+i"Model.h"
+i"Msg.h"
+i"Parm.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"SeedFactory.h"
+i"Settings.h"
+i"TableImage.h"
+i"TableImageFactory.h"
+
+N/Users/jessielee/Documents/HDPP/MenuItem.h
+c000000004B9BE9660000000000000841
+t1268509030
+s2113
+i<set>
+i<string>
+i<vector>
+i"TableImage.h"
+
+N/Users/jessielee/Documents/HDPP/MenuItemInfo.cpp
+c000000004B1FE5B6000000000000007D
+t1260381622
+s125
+i"MenuItemInfo.h"
+
+N/Users/jessielee/Documents/HDPP/MenuItemInfo.h
+c000000004BA11A300000000000000166
+t1268849200
+s358
+
+N/Users/jessielee/Documents/HDPP/Model.cpp
+c000000004D5B02410000000000002C00
+t1297809985
+s11264
+i<iomanip>
+i<iostream>
+i<mpi.h>
+i<string>
+i"Alignment.h"
+i"CondLikes.h"
+i"Franchise.h"
+i"FranchiseHq.h"
+i"MbMatrix.h"
+i"MbRandom.h"
+i"MenuItem.h"
+i"Model.h"
+i"Msg.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"RateMatrix.h"
+i"RateMatrixMngr.h"
+i"Restaurant.h"
+i"SeedFactory.h"
+i"Settings.h"
+i"SiteLikes.h"
+i"SiteModels.h"
+i"StateSets.h"
+
+N/Users/jessielee/Documents/HDPP/Model.h
+c000000004BA11A38000000000000073D
+t1268849208
+s1853
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/Msg.cpp
+c000000004B9057A3000000000000012F
+t1267750819
+s303
+i<iostream>
+i<mpi.h>
+i"Msg.h"
+
+N/Users/jessielee/Documents/HDPP/Msg.h
+c000000004B9F04520000000000000090
+t1268712530
+s144
+i<string>
+
+N/Users/jessielee/Documents/HDPP/Parm.cpp
+c000000004B953A3B00000000000001C0
+t1268070971
+s448
+i<iostream>
+i<string>
+i"MbRandom.h"
+i"Model.h"
+i"Parm.h"
+
+N/Users/jessielee/Documents/HDPP/Parm.h
+c000000004BA1302B0000000000000416
+t1268854827
+s1046
+i<string>
+
+N/Users/jessielee/Documents/HDPP/Parm_dnds.cpp
+c000000004C8FF05F00000000000006CC
+t1284501599
+s1740
+i<iostream>
+i<iomanip>
+i<string>
+i"MbRandom.h"
+i"Parm.h"
+i"Parm_dnds.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_dnds.h
+c000000004BA050960000000000000425
+t1268797590
+s1061
+i"Parm.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_kappa.cpp
+c000000004C8FF06A00000000000006FF
+t1284501610
+s1791
+i<iostream>
+i<iomanip>
+i<string>
+i"MbRandom.h"
+i"Parm.h"
+i"Parm_kappa.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_kappa.h
+c000000004BA050A30000000000000443
+t1268797603
+s1091
+i"Parm.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_key.cpp
+c000000004D5AD2F7000000000000094B
+t1297797879
+s2379
+i<iomanip>
+i<iostream>
+i"Msg.h"
+i"Parm.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_key.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_key.h
+c000000004D5AD1D00000000000000553
+t1297797584
+s1363
+
+N/Users/jessielee/Documents/HDPP/Parm_length.cpp
+c000000004D5B16B10000000000000786
+t1297815217
+s1926
+i<iostream>
+i<iomanip>
+i<string>
+i"MbRandom.h"
+i"Parm.h"
+i"Parm_length.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_length.h
+c000000004D5ACE1000000000000004A1
+t1297796624
+s1185
+i"Parm.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp
+c000000004D5B1B920000000000000CF2
+t1297816466
+s3314
+i<iomanip>
+i<iostream>
+i<string>
+i<vector>
+i"MbRandom.h"
+i"Parm.h"
+i"Parm_statefreqs.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_statefreqs.h
+c000000004BA050B20000000000000566
+t1268797618
+s1382
+i"Parm.h"
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/Parm_subrates.cpp
+c000000004D5B1BA20000000000000C14
+t1297816482
+s3092
+i<iomanip>
+i<iostream>
+i<string>
+i<vector>
+i"MbRandom.h"
+i"Parm.h"
+i"Parm_subrates.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_subrates.h
+c000000004D5ACA430000000000000524
+t1297795651
+s1316
+i"Parm.h"
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/Parm_tree.cpp
+c000000004D5C3D7C0000000000007FE5
+t1297890684
+s32741
+i<fstream>
+i<iostream>
+i<iomanip>
+i<map>
+i<mpi.h>
+i<string>
+i"MbRandom.h"
+i"Model.h"
+i"Msg.h"
+i"Parm.h"
+i"Parm_tree.h"
+i"StateSets.h"
+i"Util.h"
+
+N/Users/jessielee/Documents/HDPP/Parm_tree.h
+c000000004D5B01D30000000000001550
+t1297809875
+s5456
+i<map>
+i<set>
+i<sstream>
+i<string>
+i<vector>
+i"Parm.h"
+
+N/Users/jessielee/Documents/HDPP/QualityScores.cpp
+c000000004E9DDB850000000000000471
+t1318968197
+s1137
+i<iostream>
+i<string>
+i<iomanip>
+i<sstream>
+i<istream>
+i"MbBitfield.h"
+i"QualityScores.h"
+i<fstream>
+
+N/Users/jessielee/Documents/HDPP/QualityScores.h
+c000000004E738D2C000000000000033A
+t1316195628
+s826
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/RateMatrix.cpp
+c000000004D5C3D150000000000001A25
+t1297890581
+s6693
+i<iostream>
+i<iomanip>
+i"MbTransitionMatrix.h"
+i"MbMatrix.h"
+i"Parm.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_key.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"RateMatrix.h"
+i"RateMatrixMngr.h"
+
+N/Users/jessielee/Documents/HDPP/RateMatrix.h
+c000000004D5AEC0F00000000000008DA
+t1297804303
+s2266
+i"MbMatrix.h"
+i"Parm_key.h"
+i<set>
+i<string>
+
+N/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp
+c000000004B953A4D0000000000000895
+t1268070989
+s2197
+i<cmath>
+i<iostream>
+i"Alignment.h"
+i"RateMatrixMap.h"
+
+N/Users/jessielee/Documents/HDPP/RateMatrixMap.h
+c000000004BA11A59000000000000017E
+t1268849241
+s382
+
+N/Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp
+c000000004D5AEBDF00000000000016C4
+t1297804255
+s5828
+i<algorithm>
+i<iomanip>
+i<iostream>
+i<map>
+i<utility>
+i"Alignment.h"
+i"Franchise.h"
+i"Msg.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"RateMatrix.h"
+i"RateMatrixMngr.h"
+
+N/Users/jessielee/Documents/HDPP/RateMatrixMngr.h
+c000000004D5AEBBF0000000000000725
+t1297804223
+s1829
+i<map>
+i<set>
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/Restaurant.cpp
+c000000004D5AF2920000000000004ADB
+t1297805970
+s19163
+i<iomanip>
+i<iostream>
+i<map>
+i<mpi.h>
+i"Alignment.h"
+i"CondLikes.h"
+i"Franchise.h"
+i"FranchiseHq.h"
+i"MbRandom.h"
+i"MenuItem.h"
+i"Msg.h"
+i"Parm.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"RateMatrix.h"
+i"RateMatrixMngr.h"
+i"Restaurant.h"
+i"Settings.h"
+i"SiteLikes.h"
+i"SiteModels.h"
+i"StateSets.h"
+i"Table.h"
+i"TableFactory.h"
+
+N/Users/jessielee/Documents/HDPP/Restaurant.h
+c000000004C9116DC0000000000000C18
+t1284576988
+s3096
+i<fstream>
+i<map>
+i<set>
+i<string>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/SeedFactory.cpp
+c000000004B9EE0260000000000000447
+t1268703270
+s1095
+i<iostream>
+i<mpi.h>
+i"MbRandom.h"
+i"SeedFactory.h"
+
+N/Users/jessielee/Documents/HDPP/SeedFactory.h
+c000000004B93428A00000000000002A0
+t1267942026
+s672
+
+N/Users/jessielee/Documents/HDPP/Settings.cpp
+c000000004D9A0E22000000000000319B
+t1301941794
+s12699
+i<mpi.h>
+i<iomanip>
+i<iostream>
+i"Msg.h"
+i"Settings.h"
+
+N/Users/jessielee/Documents/HDPP/Settings.h
+c000000004D5AEFA200000000000008DA
+t1297805218
+s2266
+i<string>
+
+N/Users/jessielee/Documents/HDPP/SiteKey.cpp
+c000000004B94188400000000000000E5
+t1267996804
+s229
+i"SiteKey.h"
+
+N/Users/jessielee/Documents/HDPP/SiteKey.h
+c000000004A8FEDB9000000000000033B
+t1250946489
+s827
+
+N/Users/jessielee/Documents/HDPP/SiteLikes.cpp
+c000000004D5AD51700000000000009DF
+t1297798423
+s2527
+i<iomanip>
+i<iostream>
+i"Franchise.h"
+i"Msg.h"
+i"Parm.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"SiteLikes.h"
+i"SiteModels.h"
+
+N/Users/jessielee/Documents/HDPP/SiteLikes.h
+c000000004BA11A71000000000000051A
+t1268849265
+s1306
+
+N/Users/jessielee/Documents/HDPP/SiteModels.cpp
+c000000004D5AD4AA0000000000000A81
+t1297798314
+s2689
+i<iomanip>
+i<iostream>
+i"Franchise.h"
+i"Msg.h"
+i"Parm_length.h"
+i"Parm_subrates.h"
+i"Parm_key.h"
+i"Parm_statefreqs.h"
+i"Parm_tree.h"
+i"SiteModels.h"
+
+N/Users/jessielee/Documents/HDPP/SiteModels.h
+c000000004D5AD42000000000000004B2
+t1297798176
+s1202
+i"Parm_key.h"
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/StateSets.cpp
+c000000004B9BE7FB00000000000018E5
+t1268508667
+s6373
+i<cmath>
+i<iostream>
+i<iomanip>
+i"Alignment.h"
+i"Msg.h"
+i"Settings.h"
+i"StateSets.h"
+i"Parm_tree.h"
+
+N/Users/jessielee/Documents/HDPP/StateSets.h
+c000000004BA11A7D0000000000000490
+t1268849277
+s1168
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/Table.cpp
+c000000004B953ACB00000000000003E0
+t1268071115
+s992
+i"Table.h"
+i<iomanip>
+i<iostream>
+
+N/Users/jessielee/Documents/HDPP/Table.h
+c000000004C8FEF5300000000000002AA
+t1284501331
+s682
+i<set>
+i"TableImage.h"
+
+N/Users/jessielee/Documents/HDPP/TableFactory.cpp
+c000000004B953A8B0000000000000475
+t1268071051
+s1141
+i<iostream>
+i<mpi.h>
+i"Table.h"
+i"TableFactory.h"
+
+N/Users/jessielee/Documents/HDPP/TableFactory.h
+c000000004B93404A00000000000002E3
+t1267941450
+s739
+i<set>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/TableImage.cpp
+c000000004B953A9100000000000001F8
+t1268071057
+s504
+i<iomanip>
+i<iostream>
+i"TableImage.h"
+
+N/Users/jessielee/Documents/HDPP/TableImage.h
+c000000004B91AF4A00000000000002E6
+t1267838794
+s742
+
+N/Users/jessielee/Documents/HDPP/TableImageFactory.cpp
+c000000004B953A9A0000000000000507
+t1268071066
+s1287
+i<iostream>
+i<mpi.h>
+i"TableImage.h"
+i"TableImageFactory.h"
+
+N/Users/jessielee/Documents/HDPP/TableImageFactory.h
+c000000004B93419D00000000000003A5
+t1267941789
+s933
+i<set>
+i<vector>
+
+N/Users/jessielee/Documents/HDPP/TableInfo.cpp
+c000000004B1FD7310000000000000091
+t1260377905
+s145
+i"TableInfo.h"
+
+N/Users/jessielee/Documents/HDPP/TableInfo.h
+c000000004B9F076C00000000000001B3
+t1268713324
+s435
+
+N/Users/jessielee/Documents/HDPP/Util.cpp
+c000000004B9F078F000000000000009D
+t1268713359
+s157
+i<ctime>
+i"Util.h"
+
+N/Users/jessielee/Documents/HDPP/Util.h
+c000000004B9F046B0000000000000057
+t1268712555
+s87
+
+N/Users/jessielee/Documents/HDPP/build/Debug/HDPP
+t2
+s0
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Alignment.o
+t1318970158
+s452460
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/CondLikes.o
+t1318970275
+s171876
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Franchise.o
+t1318970359
+s1186208
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/FranchiseHq.o
+t1318970359
+s1605604
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/HDPP.LinkFileList
+c000000004E9DE3F50000000000001017
+t1318970357
+s4119
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/IoManager.o
+t1318970358
+s225108
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbBitfield.o
+t1318970358
+s152984
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbEigensystem.o
+t1318970359
+s314416
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbMath.o
+t1318970359
+s129140
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbRandom.o
+t1318970359
+s244056
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbTransitionMatrix.o
+t1318970360
+s222516
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Mcmc.o
+t1318970360
+s436444
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItem.o
+t1318970360
+s485600
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItemInfo.o
+t1318970359
+s3504
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Model.o
+t1318970362
+s1628804
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Msg.o
+t1318970360
+s288184
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm.o
+t1318970362
+s166924
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_dnds.o
+t1318970360
+s167332
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_kappa.o
+t1318970361
+s167456
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_key.o
+t1318970361
+s199180
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_length.o
+t1318970361
+s167468
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_statefreqs.o
+t1318970361
+s303580
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_subrates.o
+t1318970362
+s303120
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_tree.o
+t1318970363
+s1049264
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/QualityScores.o
+t2
+s0
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrix.o
+t1318970363
+s322892
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMap.o
+t2
+s0
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMngr.o
+t1318970363
+s515552
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Restaurant.o
+t1318970364
+s1418772
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SeedFactory.o
+t1318970363
+s254552
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Settings.o
+t1318970364
+s398028
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteKey.o
+t1318970363
+s5488
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteLikes.o
+t1318970364
+s276568
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteModels.o
+t1318970364
+s209320
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/StateSets.o
+t1318970364
+s219820
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Table.o
+t1318970364
+s263884
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableFactory.o
+t1318970365
+s545748
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImage.o
+t1318970365
+s111752
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImageFactory.o
+t1318970365
+s539072
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableInfo.o
+t1318970364
+s3596
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Util.o
+t1318970365
+s4464
+
+N/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/main.o
+t1318970358
+s635468
+
+N/Users/jessielee/Documents/HDPP/main.cpp
+c000000004E738CFD0000000000001A02
+t1316195581
+s6658
+i<iostream>
+i<mpi.h>
+i"Alignment.h"
+i"IoManager.h"
+i"Mcmc.h"
+i"Model.h"
+i"Msg.h"
+i"SeedFactory.h"
+i"Settings.h"
+i"QualityScores.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies340663157#340663157#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Alignment.o /Users/jessielee/Documents/HDPP/Alignment.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.539437
+e340663157.586338
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Alignment.o
+x/Users/jessielee/Documents/HDPP/Alignment.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/Alignment.cpp340663157#340663157#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/Alignment.cpp3917909816998063104#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Alignment.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Alignment.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/CondLikes.o /Users/jessielee/Documents/HDPP/CondLikes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.586418
+e340663157.588818
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/CondLikes.o
+x/Users/jessielee/Documents/HDPP/CondLikes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/CondLikes.cpp340663157#340663157#0(206"/Users/jessielee/Documents/HDPP/CondLikes.cpp: In member function 'void CondLikes::initializeCondLikes(Alignment*)':/Users/jessielee/Documents/HDPP/CondLikes.cpp:54: warning: unused variable 'numSetToOne'1(22@29"Unused variable 'numSetToOne'340663157#117#89#0(6@45"/Users/jessielee/Documents/HDPP/CondLikes.cpp340663075#54#0#54#0#19"unused variable '*'0(0#0#45"/Users/jessielee/Documents/HDPP/CondLikes.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/CondLikes.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/CondLikes.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Franchise.o /Users/jessielee/Documents/HDPP/Franchise.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.588874
+e340663159.349462
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Franchise.o
+x/Users/jessielee/Documents/HDPP/Franchise.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/Franchise.cpp340663157#340663159#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/Franchise.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Franchise.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Franchise.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/FranchiseHq.o /Users/jessielee/Documents/HDPP/FranchiseHq.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.590328
+e340663159.870176
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/FranchiseHq.o
+x/Users/jessielee/Documents/HDPP/FranchiseHq.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::checkAuxiliaryMenuItems()':
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:147: warning: unused variable 'm'
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::initializeFranchiseHq(std::__debug::vector<TableImage*, std::allocator<TableImage*> >&)':
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:371: warning: unused variable 'm'
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::updateParameters()':
+o/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:700: warning: unused variable 'lnProposalProb'
+lSLF07#2@55"Compile /Users/jessielee/Documents/HDPP/FranchiseHq.cpp340663157#340663159#0(659"/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::checkAuxiliaryMenuItems()':/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:147: warning: unused variable 'm'/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::initializeFranchiseHq(std::__debug::vector<TableImage*, std::allocator<TableImage*> >&)':/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:371: warning: unused variable 'm'/Users/jessielee/Documents/HDPP/FranchiseHq.cpp: In member function 'void FranchiseHq::updateParameters()':/Users/jessielee/Documents/HDPP/FranchiseHq.cpp:700: warning: unused variable 'lnProposalProb'3(22@19"Unused variable 'm'340663158#115#82#0(6@47"/Users/jessielee/Documents/HDPP/FranchiseHq.cpp319583406#147#0#147#0#19"unused variable '*'0(22@19"Unused variable 'm'340663158#374#82#0(6@47"/Users/jessielee/Documents/HDPP/FranchiseHq.cpp319583406#371#0#371#0#19"unused variable '*'0(22@32"Unused variable 'lnProposalProb'340663158#564#95#0(6@47"/Users/jessielee/Documents/HDPP/FranchiseHq.cpp319583406#700#0#700#0#19"unused variable '*'0(0#0#47"/Users/jessielee/Documents/HDPP/FranchiseHq.cpp4300882208#1221"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/FranchiseHq.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/FranchiseHq.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/IoManager.o /Users/jessielee/Documents/HDPP/IoManager.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.591323
+e340663158.169213
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/IoManager.o
+x/Users/jessielee/Documents/HDPP/IoManager.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/IoManager.cpp340663157#340663158#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/IoManager.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/IoManager.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/IoManager.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbBitfield.o /Users/jessielee/Documents/HDPP/MbBitfield.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663158.169316
+e340663158.642699
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbBitfield.o
+x/Users/jessielee/Documents/HDPP/MbBitfield.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/MbBitfield.cpp340663158#340663158#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/MbBitfield.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MbBitfield.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbBitfield.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbEigensystem.o /Users/jessielee/Documents/HDPP/MbEigensystem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663158.642794
+e340663159.510668
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbEigensystem.o
+x/Users/jessielee/Documents/HDPP/MbEigensystem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jessielee/Documents/HDPP/MbEigensystem.cpp340663158#340663159#0(0"0(0#0#49"/Users/jessielee/Documents/HDPP/MbEigensystem.cpp3917909816998063104#1225"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MbEigensystem.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbEigensystem.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbMath.o /Users/jessielee/Documents/HDPP/MbMath.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663158.706154
+e340663159.225049
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbMath.o
+x/Users/jessielee/Documents/HDPP/MbMath.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jessielee/Documents/HDPP/MbMath.cpp340663158#340663159#0(0"0(0#0#42"/Users/jessielee/Documents/HDPP/MbMath.cpp4300882208#1211"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MbMath.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbMath.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbRandom.o /Users/jessielee/Documents/HDPP/MbRandom.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.225234
+e340663159.904971
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbRandom.o
+x/Users/jessielee/Documents/HDPP/MbRandom.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jessielee/Documents/HDPP/MbRandom.cpp340663159#340663159#0(0"0(0#0#44"/Users/jessielee/Documents/HDPP/MbRandom.cpp4300882208#1215"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MbRandom.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbRandom.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbTransitionMatrix.o /Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.349564
+e340663160.019539
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbTransitionMatrix.o
+x/Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp340663159#340663160#0(0"0(0#0#54"/Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp4300882208#1235"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MbTransitionMatrix.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MbTransitionMatrix.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Mcmc.o /Users/jessielee/Documents/HDPP/Mcmc.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.510763
+e340663160.426550
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Mcmc.o
+x/Users/jessielee/Documents/HDPP/Mcmc.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/jessielee/Documents/HDPP/Mcmc.cpp340663159#340663160#0(0"0(0#0#40"/Users/jessielee/Documents/HDPP/Mcmc.cpp4300882208#1207"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Mcmc.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Mcmc.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItem.o /Users/jessielee/Documents/HDPP/MenuItem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.870273
+e340663160.747266
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItem.o
+x/Users/jessielee/Documents/HDPP/MenuItem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jessielee/Documents/HDPP/MenuItem.cpp340663159#340663160#0(0"0(0#0#44"/Users/jessielee/Documents/HDPP/MenuItem.cpp4300882208#1215"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MenuItem.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItem.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItemInfo.o /Users/jessielee/Documents/HDPP/MenuItemInfo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.905067
+e340663159.930785
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItemInfo.o
+x/Users/jessielee/Documents/HDPP/MenuItemInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jessielee/Documents/HDPP/MenuItemInfo.cpp340663159#340663159#0(0"0(0#0#48"/Users/jessielee/Documents/HDPP/MenuItemInfo.cpp4300882208#1223"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/MenuItemInfo.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/MenuItemInfo.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Model.o /Users/jessielee/Documents/HDPP/Model.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663159.930881
+e340663162.253268
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Model.o
+x/Users/jessielee/Documents/HDPP/Model.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jessielee/Documents/HDPP/Model.cpp340663159#340663162#0(0"0(0#0#41"/Users/jessielee/Documents/HDPP/Model.cpp4300882208#1209"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Model.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Model.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Msg.o /Users/jessielee/Documents/HDPP/Msg.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663160.019632
+e340663160.736626
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Msg.o
+x/Users/jessielee/Documents/HDPP/Msg.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/jessielee/Documents/HDPP/Msg.cpp340663160#340663160#0(0"0(0#0#39"/Users/jessielee/Documents/HDPP/Msg.cpp4300882208#1205"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Msg.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Msg.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm.o /Users/jessielee/Documents/HDPP/Parm.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663161.999862
+e340663162.514327
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm.o
+x/Users/jessielee/Documents/HDPP/Parm.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/jessielee/Documents/HDPP/Parm.cpp340663162#340663162#0(0"0(0#0#40"/Users/jessielee/Documents/HDPP/Parm.cpp4300882208#1207"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_dnds.o /Users/jessielee/Documents/HDPP/Parm_dnds.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663160.426644
+e340663160.954643
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_dnds.o
+x/Users/jessielee/Documents/HDPP/Parm_dnds.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/Parm_dnds.cpp340663160#340663160#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/Parm_dnds.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_dnds.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_dnds.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_kappa.o /Users/jessielee/Documents/HDPP/Parm_kappa.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663160.736858
+e340663161.281621
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_kappa.o
+x/Users/jessielee/Documents/HDPP/Parm_kappa.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/Parm_kappa.cpp340663160#340663161#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/Parm_kappa.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_kappa.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_kappa.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_key.o /Users/jessielee/Documents/HDPP/Parm_key.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663160.747363
+e340663161.357192
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_key.o
+x/Users/jessielee/Documents/HDPP/Parm_key.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jessielee/Documents/HDPP/Parm_key.cpp340663160#340663161#0(0"0(0#0#44"/Users/jessielee/Documents/HDPP/Parm_key.cpp4300882208#1215"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_key.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_key.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_length.o /Users/jessielee/Documents/HDPP/Parm_length.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663160.954745
+e340663161.491267
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_length.o
+x/Users/jessielee/Documents/HDPP/Parm_length.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jessielee/Documents/HDPP/Parm_length.cpp340663160#340663161#0(0"0(0#0#47"/Users/jessielee/Documents/HDPP/Parm_length.cpp4300882208#1221"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_length.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_length.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_statefreqs.o /Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663161.281737
+e340663161.999760
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_statefreqs.o
+x/Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp340663161#340663161#0(0"0(0#0#51"/Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp4300882208#1229"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_statefreqs.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_statefreqs.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_subrates.o /Users/jessielee/Documents/HDPP/Parm_subrates.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663161.357299
+e340663162.015891
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_subrates.o
+x/Users/jessielee/Documents/HDPP/Parm_subrates.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jessielee/Documents/HDPP/Parm_subrates.cpp340663161#340663162#0(0"0(0#0#49"/Users/jessielee/Documents/HDPP/Parm_subrates.cpp4300882208#1225"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_subrates.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_subrates.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_tree.o /Users/jessielee/Documents/HDPP/Parm_tree.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663161.491375
+e340663163.242703
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_tree.o
+x/Users/jessielee/Documents/HDPP/Parm_tree.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/Parm_tree.cpp: In member function 'void Tree::reconnectSubtrees(std::__debug::vector<Node*, std::allocator<Node*> >&, std::__debug::vector<Node*, std::allocator<Node*> >&, Node*, Node*, std::__debug::vector<Node*, std::allocator<Node*> >&, Node*, Node*, double&, double&)':
+o/Users/jessielee/Documents/HDPP/Parm_tree.cpp:639: warning: unused variable 'b'
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/Parm_tree.cpp340663161#340663163#0(386"/Users/jessielee/Documents/HDPP/Parm_tree.cpp: In member function 'void Tree::reconnectSubtrees(std::__debug::vector<Node*, std::allocator<Node*> >&, std::__debug::vector<Node*, std::allocator<Node*> >&, Node*, Node*, std::__debug::vector<Node*, std::allocator<Node*> >&, Node*, Node*, double&, double&)':/Users/jessielee/Documents/HDPP/Parm_tree.cpp:639: warning: unused variable 'b'1(22@19"Unused variable 'b'340663162#306#80#0(6@45"/Users/jessielee/Documents/HDPP/Parm_tree.cpp319583484#639#0#639#0#19"unused variable '*'0(0#0#45"/Users/jessielee/Documents/HDPP/Parm_tree.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Parm_tree.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Parm_tree.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/QualityScores.o /Users/jessielee/Documents/HDPP/QualityScores.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663162.015994
+e340663162.438123
+r0
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/QualityScores.o
+x/Users/jessielee/Documents/HDPP/QualityScores.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:18: error: ISO C++ forbids declaration of 'QualityScore' with no type
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:18: error: no 'int QualityScores::QualityScore(std::string)' member function declared in class 'QualityScores'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp: In member function 'int QualityScores::QualityScore(std::string)':
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:23: error: expected primary-expression before string constant
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:23: error: expected `;' before string constant
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: expected type-specifier before 'vector'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: no match for 'operator=' in '((QualityScores*)this)->QualityScores::scoreVector = (int*)operator new(4u)'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/debug/vector:104: note: candidates are: std::__debug::vector<_Tp, _Allocator>& std::__debug::vector<_Tp, _Allocator>::operator=(const std::__debug::vector<_Tp, _Allocator>&) [with _Tp = int, _Allocator = std::allocator<int>]
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: expected `;' before 'vector'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before '(' token
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before 'int'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before 'fn'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected `;' before '{' token
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:42: error: expected primary-expression before 'void'
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:42: error: expected `;' before '{' token
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:46: error: a function-definition is not allowed here before '{' token
+o/Users/jessielee/Documents/HDPP/QualityScores.cpp:61: error: expected `}' at end of input
+lSLF07#2@57"Compile /Users/jessielee/Documents/HDPP/QualityScores.cpp340663162#340663162#0(2048"/Users/jessielee/Documents/HDPP/QualityScores.cpp:18: error: ISO C++ forbids declaration of 'QualityScore' with no type/Users/jessielee/Documents/HDPP/QualityScores.cpp:18: error: no 'int QualityScores::QualityScore(std::string)' member function declared in class 'QualityScores'/Users/jessielee/Documents/HDPP/QualityScores.cpp: In member function 'int QualityScores::QualityScore(std::string)':/Users/jessielee/Documents/HDPP/QualityScores.cpp:23: error: expected primary-expression before string constant/Users/jessielee/Documents/HDPP/QualityScores.cpp:23: error: expected `;' before string constant/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: expected type-specifier before 'vector'/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: no match for 'operator=' in '((QualityScores*)this)->QualityScores::scoreVector = (int*)operator new(4u)'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/debug/vector:104: note: candidates are: std::__debug::vector<_Tp, _Allocator>& std::__debug::vector<_Tp, _Allocator>::operator=(const std::__debug::vector<_Tp, _Allocator>&) [with _Tp = int, _Allocator = std::allocator<int>]/Users/jessielee/Documents/HDPP/QualityScores.cpp:30: error: expected `;' before 'vector'/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before '(' token/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before 'int'/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected primary-expression before 'fn'/Users/jessielee/Documents/HDPP/QualityScores.cpp:38: error: expected `;' before '{' token/Users/jessielee/Documents/HDPP/QualityScores.cpp:42: error: expected primary-expression before 'void'/Users/jessielee/Documents/HDPP/QualityScores.cpp:42: error: expected `;' before '{' token/Users/jessielee/Documents/HDPP/QualityScores.cpp:46: error: a function-definition is not allowed here before '{' token/Users/jessielee/Documents/HDPP/QualityScores.cpp:61: error: expected `}' at end of input16(4@58"ISO C++ forbids declaration of 'QualityScore' with no type340663162#0#120#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#18#0#18#0#47"ISO C++ forbids declaration of '*' with no type0(4@99"No 'int QualityScores::QualityScore(std::string)' member function declared in class 'QualityScores'340663162#120#161#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#18#0#18#0#0"0(4@50"Expected primary-expression before string constant340663162#399#112#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#23#0#23#0#19"expected * before *0(4@35"Expected `;' before string constant340663162#511#97#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#23#0#23#0#19"expected * before *0(4@39"Expected type-specifier before 'vector'340663162#608#101#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#30#0#30#0#19"expected * before *0(4@105"No match for 'operator=' in '((QualityScores*)this)->QualityScores::scoreVector = (int*)operator new(4u)'340663162#709#167#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#30#0#30#0#0"0(13@200"Candidates are: std::__debug::vector<_Tp, _Allocator>& std::__debug::vector<_Tp, _Allocator>::operator=(const std::__debug::vector<_Tp, _Allocator>&) [with _Tp = int, _Allocator = std::allocator<int>]340663162#876#278#0(6@65"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/debug/vector264359117#104#0#104#0#0"0(4@28"Expected `;' before 'vector'340663162#1154#90#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#30#0#30#0#19"expected * before *0(4@44"Expected primary-expression before '(' token340663162#1244#106#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#38#0#38#0#19"expected * before *0(4@40"Expected primary-expression before 'int'340663162#1350#102#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#38#0#38#0#19"expected * before *0(4@39"Expected primary-expression before 'fn'340663162#1452#101#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#38#0#38#0#19"expected * before *0(4@29"Expected `;' before '{' token340663162#1553#91#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#38#0#38#0#19"expected * before *0(4@41"Expected primary-expression before 'void'340663162#1644#103#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#42#0#42#0#19"expected * before *0(4@29"Expected `;' before '{' token340663162#1747#91#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#42#0#42#0#19"expected * before *0(4@58"A function-definition is not allowed here before '{' token340663162#1838#120#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#46#0#46#0#0"0(4@28"Expected `}' at end of input340663162#1958#90#0(6@49"/Users/jessielee/Documents/HDPP/QualityScores.cpp340660997#61#0#61#0#0"0(0#0#49"/Users/jessielee/Documents/HDPP/QualityScores.cpp4300882208#1225"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/QualityScores.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/QualityScores.o1#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrix.o /Users/jessielee/Documents/HDPP/RateMatrix.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663162.253509
+e340663163.025880
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrix.o
+x/Users/jessielee/Documents/HDPP/RateMatrix.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/RateMatrix.cpp340663162#340663163#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/RateMatrix.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/RateMatrix.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrix.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMap.o /Users/jessielee/Documents/HDPP/RateMatrixMap.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663162.438212
+e340663162.855103
+r0
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMap.o
+x/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp: In constructor 'RateMatrixMap::RateMatrixMap(Alignment*)':
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:10: error: 'class Alignment' has no member named 'getNumSenseCodons'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:22: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:23: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:24: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:25: error: 'class Alignment' has no member named 'getAminoAcidForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:28: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:29: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:30: error: 'class Alignment' has no member named 'getNucleotideForCodon'
+o/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:31: error: 'class Alignment' has no member named 'getAminoAcidForCodon'
+lSLF07#2@57"Compile /Users/jessielee/Documents/HDPP/RateMatrixMap.cpp340663162#340663162#0(1211"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp: In constructor 'RateMatrixMap::RateMatrixMap(Alignment*)':/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:10: error: 'class Alignment' has no member named 'getNumSenseCodons'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:22: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:23: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:24: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:25: error: 'class Alignment' has no member named 'getAminoAcidForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:28: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:29: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:30: error: 'class Alignment' has no member named 'getNucleotideForCodon'/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp:31: error: 'class Alignment' has no member named 'getAminoAcidForCodon'9(4@57"'class Alignment' has no member named 'getNumSenseCodons'340663162#110#119#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#10#0#10#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#229#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#22#0#22#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#352#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#23#0#23#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#475#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#24#0#24#0#27"'*' has no member named '*'0(4@60"'class Alignment' has no member named 'getAminoAcidForCodon'340663162#598#122#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#25#0#25#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#720#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#28#0#28#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#843#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#29#0#29#0#27"'*' has no member named '*'0(4@61"'class Alignment' has no member named 'getNucleotideForCodon'340663162#966#123#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#30#0#30#0#27"'*' has no member named '*'0(4@60"'class Alignment' has no member named 'getAminoAcidForCodon'340663162#1089#122#0(6@49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp289763789#31#0#31#0#27"'*' has no member named '*'0(0#0#49"/Users/jessielee/Documents/HDPP/RateMatrixMap.cpp4300882208#1225"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/RateMatrixMap.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMap.o1#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMngr.o /Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663162.514426
+e340663163.478805
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMngr.o
+x/Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp340663162#340663163#0(0"0(0#0#50"/Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp4300882208#1227"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/RateMatrixMngr.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/RateMatrixMngr.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Restaurant.o /Users/jessielee/Documents/HDPP/Restaurant.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663162.855203
+e340663164.964827
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Restaurant.o
+x/Users/jessielee/Documents/HDPP/Restaurant.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/Restaurant.cpp340663162#340663164#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/Restaurant.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Restaurant.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Restaurant.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SeedFactory.o /Users/jessielee/Documents/HDPP/SeedFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663163.025988
+e340663163.728979
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SeedFactory.o
+x/Users/jessielee/Documents/HDPP/SeedFactory.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jessielee/Documents/HDPP/SeedFactory.cpp340663163#340663163#0(0"0(0#0#47"/Users/jessielee/Documents/HDPP/SeedFactory.cpp4300882208#1221"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/SeedFactory.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SeedFactory.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Settings.o /Users/jessielee/Documents/HDPP/Settings.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663163.242797
+e340663164.146959
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Settings.o
+x/Users/jessielee/Documents/HDPP/Settings.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/Settings.cpp: In member function 'void Settings::print()':
+o/Users/jessielee/Documents/HDPP/Settings.cpp:309: warning: unused variable 'noYes'
+lSLF07#2@52"Compile /Users/jessielee/Documents/HDPP/Settings.cpp340663163#340663164#0(174"/Users/jessielee/Documents/HDPP/Settings.cpp: In member function 'void Settings::print()':/Users/jessielee/Documents/HDPP/Settings.cpp:309: warning: unused variable 'noYes'1(22@23"Unused variable 'noYes'340663163#91#83#0(6@44"/Users/jessielee/Documents/HDPP/Settings.cpp323634594#309#0#309#0#19"unused variable '*'0(0#0#44"/Users/jessielee/Documents/HDPP/Settings.cpp4300882208#1215"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Settings.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Settings.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteKey.o /Users/jessielee/Documents/HDPP/SiteKey.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663163.478909
+e340663163.509004
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteKey.o
+x/Users/jessielee/Documents/HDPP/SiteKey.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jessielee/Documents/HDPP/SiteKey.cpp340663163#340663163#0(0"0(0#0#43"/Users/jessielee/Documents/HDPP/SiteKey.cpp4300882208#1213"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/SiteKey.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteKey.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteLikes.o /Users/jessielee/Documents/HDPP/SiteLikes.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663163.509098
+e340663164.164698
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteLikes.o
+x/Users/jessielee/Documents/HDPP/SiteLikes.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/SiteLikes.cpp340663163#340663164#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/SiteLikes.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/SiteLikes.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteLikes.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteModels.o /Users/jessielee/Documents/HDPP/SiteModels.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663163.729079
+e340663164.344878
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteModels.o
+x/Users/jessielee/Documents/HDPP/SiteModels.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/SiteModels.cpp340663163#340663164#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/SiteModels.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/SiteModels.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/SiteModels.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/StateSets.o /Users/jessielee/Documents/HDPP/StateSets.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.147214
+e340663164.788232
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/StateSets.o
+x/Users/jessielee/Documents/HDPP/StateSets.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/StateSets.cpp340663164#340663164#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/StateSets.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/StateSets.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/StateSets.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Table.o /Users/jessielee/Documents/HDPP/Table.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.164806
+e340663164.770434
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Table.o
+x/Users/jessielee/Documents/HDPP/Table.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jessielee/Documents/HDPP/Table.cpp340663164#340663164#0(0"0(0#0#41"/Users/jessielee/Documents/HDPP/Table.cpp4300882208#1209"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Table.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Table.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableFactory.o /Users/jessielee/Documents/HDPP/TableFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.344980
+e340663165.313239
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableFactory.o
+x/Users/jessielee/Documents/HDPP/TableFactory.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jessielee/Documents/HDPP/TableFactory.cpp340663164#340663165#0(0"0(0#0#48"/Users/jessielee/Documents/HDPP/TableFactory.cpp4300882208#1223"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/TableFactory.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableFactory.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImage.o /Users/jessielee/Documents/HDPP/TableImage.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.770605
+e340663165.160235
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImage.o
+x/Users/jessielee/Documents/HDPP/TableImage.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jessielee/Documents/HDPP/TableImage.cpp340663164#340663165#0(0"0(0#0#46"/Users/jessielee/Documents/HDPP/TableImage.cpp4300882208#1219"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/TableImage.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImage.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImageFactory.o /Users/jessielee/Documents/HDPP/TableImageFactory.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.788365
+e340663165.646969
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImageFactory.o
+x/Users/jessielee/Documents/HDPP/TableImageFactory.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/jessielee/Documents/HDPP/TableImageFactory.cpp340663164#340663165#0(0"0(0#0#53"/Users/jessielee/Documents/HDPP/TableImageFactory.cpp4300882208#1233"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/TableImageFactory.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableImageFactory.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableInfo.o /Users/jessielee/Documents/HDPP/TableInfo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.964929
+e340663164.991684
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableInfo.o
+x/Users/jessielee/Documents/HDPP/TableInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jessielee/Documents/HDPP/TableInfo.cpp340663164#340663164#0(0"0(0#0#45"/Users/jessielee/Documents/HDPP/TableInfo.cpp4300882208#1217"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/TableInfo.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/TableInfo.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Util.o /Users/jessielee/Documents/HDPP/Util.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663164.991789
+e340663165.032574
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Util.o
+x/Users/jessielee/Documents/HDPP/Util.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/jessielee/Documents/HDPP/Util.cpp340663164#340663165#0(0"0(0#0#40"/Users/jessielee/Documents/HDPP/Util.cpp4300882208#1207"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/Util.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/Util.o0#
+
+CCompileC build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/main.o /Users/jessielee/Documents/HDPP/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s340663157.592102
+e340663158.706050
+r1
+xCompileC
+xbuild/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/main.o
+x/Users/jessielee/Documents/HDPP/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jessielee/Documents/HDPP/main.cpp: In function 'void initializeSeed()':
+o/Users/jessielee/Documents/HDPP/main.cpp:104: warning: unused variable 'sf'
+lSLF07#2@48"Compile /Users/jessielee/Documents/HDPP/main.cpp340663157#340663158#0(155"/Users/jessielee/Documents/HDPP/main.cpp: In function 'void initializeSeed()':/Users/jessielee/Documents/HDPP/main.cpp:104: warning: unused variable 'sf'1(22@20"Unused variable 'sf'340663158#79#76#0(6@40"/Users/jessielee/Documents/HDPP/main.cpp337888381#104#0#104#0#19"unused variable '*'0(0#0#40"/Users/jessielee/Documents/HDPP/main.cpp4300882208#1207"    cd /Users/jessielee/Documents/HDPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-generated-files.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-own-target-headers.hmap -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-all-target-headers.hmap -iquote /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/HDPP-project-headers.hmap -F/Users/jessielee/Documents/HDPP/build/Debug -I/Users/jessielee/Documents/HDPP/build/Debug/include -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources/x86_64 -I/Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/DerivedSources -c /Users/jessielee/Documents/HDPP/main.cpp -o /Users/jessielee/Documents/HDPP/build/HDPP.build/Debug/HDPP.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/jessielee/Documents/HDPP/build/Debug/HDPP normal x86_64
+r0
+

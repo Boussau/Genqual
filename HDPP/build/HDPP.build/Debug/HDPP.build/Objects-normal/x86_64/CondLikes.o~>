@@ -1,0 +1,2 @@
+/Users/jessielee/Documents/HDPP/CondLikes.cpp: In member function 'void CondLikes::initializeCondLikes(Alignment*)':
+/Users/jessielee/Documents/HDPP/CondLikes.cpp:55: warning: unused variable 'numSetToOne'

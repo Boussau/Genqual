@@ -1,0 +1,2 @@
+/Users/jessielee/Documents/HDPP/Settings.cpp: In member function 'void Settings::print()':
+/Users/jessielee/Documents/HDPP/Settings.cpp:318: warning: unused variable 'noYes'

@@ -1,0 +1,477 @@
+#include <string>
+#include <iostream>
+#include <iomanip>
+#include <istream>
+#include <sstream>
+#include <fstream>
+#include "Alignment.h"
+#include "MbBitfield.h"
+
+
+
+Alignment::Alignment(std::string fn) {
+		
+	// set some pointers to NULL
+	matrix            = NULL;
+	
+	// initialize the number of missing entries
+	numMissingEntries = 0;
+	
+	// initialize the file name (removing the path information and any information after a "."
+	std::string tempName = fn;
+	int location = tempName.rfind( "/" );
+	if ( location != std::string::npos )
+		tempName = tempName.substr( location+1, tempName.size() );
+	location = tempName.find( "." );
+	if ( location != std::string::npos )
+		tempName = tempName.substr( 0, location );
+	fileWithAlignment = tempName;
+	
+	// open the file, and determine the number of taxa and characters
+	std::ifstream seqStream( fn.c_str() );
+	if (!seqStream) 
+		{
+		std::cerr << "Cannot open file \"" + fn + "\"" << std::endl;
+		exit(1);
+		}
+		
+	std::string linestring = "";
+	numTaxa = 0, numChar = 0;
+	while( getline(seqStream, linestring).good() )
+		{
+		if (linestring[0] == '>')
+			numTaxa++;
+		else
+			{
+			int tempInt = 0;
+			for (int i=0; i<linestring.size(); i++)
+				{
+				if (linestring[i] != ' ' && linestring[i] != '\t' && linestring[i] != '\n')
+					tempInt++;
+				}
+			if (numChar == 0)
+				numChar = tempInt;
+			else
+				{
+				if (tempInt != numChar)
+					{
+					std::cerr << "ERROR: Inconsistent sequence lengths!" << std::endl;
+					exit(1);
+					}
+				}
+			}
+		}
+	
+	// close the file
+	seqStream.close();
+
+	// allocate the matrix, now that we know its size
+	if (numTaxa > 0 && numChar > 0)
+		{
+		matrix = new int*[numTaxa];
+		matrix[0] = new int[numTaxa * numChar];
+		for (int i=1; i<numTaxa; i++)
+			matrix[i] = matrix[i-1] + numChar;
+		for (int i=0; i<numTaxa; i++)
+			for (int j=0; j<numChar; j++)
+				matrix[i][j] = 0;
+
+		qualityScores = new double*[numTaxa];
+		qualityScores[0] = new double[numTaxa * numChar];
+		for (int i=1; i<numTaxa; i++)
+		  qualityScores[i] = qualityScores[i-1] + numChar;
+		for (int i=0; i<numTaxa; i++)
+		  for (int j=0; j<numChar; j++)
+		    qualityScores[i][j] = 1.0;
+		}
+	else
+		{
+		std::cerr << "ERROR: Number of taxa and/or number of characters is zero!" << std::endl;
+		exit(1);
+		}
+		
+	// open the file (again) and read in the taxon names and sequence information
+	seqStream.open( fn.c_str() );
+	if (!seqStream) 
+		{
+		std::cerr << "Cannot open file \"" + fn + "\"" << std::endl;
+		exit(1);
+		}
+
+	// read the file line-by-line
+	int seqNum = 0;
+	while( getline(seqStream, linestring).good() )
+		{
+		if (linestring[0] == '>')
+			{
+			// read a taxon name
+			std::string tempName = "";
+			for (int i=0; i<linestring.size(); i++)
+				{
+				if (linestring[i] != '>')
+					tempName += linestring[i];
+				}
+			taxonNames.push_back(tempName);
+			}
+		else
+			{
+			// read a sequence
+			for (int i=0, j=0; i<linestring.size(); i++)
+				{
+				if (linestring[i] != ' ' && linestring[i] != '\t' && linestring[i] != '\n')
+					{
+					int nucIdx = nucID( linestring[i] );
+					if ( !(nucIdx == 1 || nucIdx == 2 || nucIdx == 4 || nucIdx == 8) )
+						numMissingEntries++;
+					matrix[seqNum][j++] = nucID( linestring[i] );
+					}
+				}
+			seqNum++;
+			}
+		}
+	// close the file (again)
+	seqStream.close();
+	
+	//print();
+}
+
+Alignment::Alignment(int nt, int nc, std::string fn) {
+
+	// initialize the file name (removing the path information and any information after a ".")
+	std::string tempName = fn;
+	int location = tempName.rfind( "/" );
+	if ( location != std::string::npos )
+		tempName = tempName.substr( location+1, tempName.size() );
+	location = tempName.find( "." );
+	if ( location != std::string::npos )
+		tempName = tempName.substr( 0, location );
+	fileWithAlignment = tempName;
+
+	// set some pointers to NULL
+	matrix            = NULL;
+	
+	// initialize the number of missing entries
+	numMissingEntries = 0;
+	
+	// fill in the size of the alignment
+	numTaxa = nt;
+	numChar = nc;
+	
+	// allocate the matrix
+	matrix = new int*[numTaxa];
+	matrix[0] = new int[numTaxa * numChar];
+	for (int i=1; i<numTaxa; i++)
+		matrix[i] = matrix[i-1] + numChar;
+	for (int i=0; i<numTaxa; i++)
+		for (int j=0; j<numChar; j++)
+			matrix[i][j] = 1;
+
+	qualityScores = new double*[numTaxa];
+	qualityScores[0] = new double[numTaxa * numChar];
+	for (int i=1; i<numTaxa; i++)
+		qualityScores[i] = qualityScores[i-1] + numChar;
+	for (int i=0; i<numTaxa; i++)
+		for (int j=0; j<numChar; j++)
+		    qualityScores[i][j] = 0.0;
+	
+	// fill in the taxon names
+	for (int i=0; i<numTaxa; i++)
+		{
+		char temp[50];
+		sprintf(temp, "Taxon_%d", i+1);
+		std::string taxStr = temp;
+		taxonNames.push_back( taxStr );
+		}
+
+}
+
+Alignment::~Alignment(void) {
+
+	if (matrix != NULL)
+		{
+		delete [] matrix[0];
+		delete [] matrix;
+		delete [] qualityScores[0];
+		delete [] qualityScores;
+		}
+}
+
+void Alignment::copyTaxonNames(std::vector<std::string>& nms) {
+
+	nms.resize( taxonNames.size() );
+	for (int i=0; i<taxonNames.size(); i++)
+		nms[i] = taxonNames[i];
+}
+
+double Alignment::getIncompleteness(void) {
+
+	return (double)numMissingEntries / (numTaxa * numChar);
+}
+
+/*-------------------------------------------------------------------
+|
+|   GetPossibleNucs: 
+|
+|   This function initializes a vector, nuc[MAX_NUM_STATES]. The four elements
+|   of nuc correspond to the four nucleotides in alphabetical order.
+|   We are assuming that the nucCode is a binary representation of
+|   the nucleotides that are consistent with the observation. For
+|   example, if we observe an A, then the nucCode is 1 and the 
+|   function initalizes nuc[0] = 1 and the other elements of nuc
+|   to be 0.
+|
+|   Observation    nucCode        nuc
+|        A            1           1000
+|        C            2           0100
+|        G            4           0010
+|        T            8           0001
+|        R            5           1010
+|        Y           10           0101
+|        M            3           1100
+|        K           12           0011
+|        S            6           0110
+|        W            9           1001
+|        H           11           1101
+|        B           14           0111
+|        V            7           1110
+|        D           13           1011
+|        N - ?       15           1111
+|
+-------------------------------------------------------------------*/
+void Alignment::getPossibleNucs(int nucCode, int nuc[]) {
+
+	if (nucCode == 1)
+		{
+		nuc[0] = 1;
+		nuc[1] = 0;
+		nuc[2] = 0;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 2)
+		{
+		nuc[0] = 0;
+		nuc[1] = 1;
+		nuc[2] = 0;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 3)
+		{
+		nuc[0] = 1;
+		nuc[1] = 1;
+		nuc[2] = 0;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 4)
+		{
+		nuc[0] = 0;
+		nuc[1] = 0;
+		nuc[2] = 1;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 5)
+		{
+		nuc[0] = 1;
+		nuc[1] = 0;
+		nuc[2] = 1;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 6)
+		{
+		nuc[0] = 0;
+		nuc[1] = 1;
+		nuc[2] = 1;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 7)
+		{
+		nuc[0] = 1;
+		nuc[1] = 1;
+		nuc[2] = 1;
+		nuc[3] = 0;
+		}
+	else if (nucCode == 8)
+		{
+		nuc[0] = 0;
+		nuc[1] = 0;
+		nuc[2] = 0;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 9)
+		{
+		nuc[0] = 1;
+		nuc[1] = 0;
+		nuc[2] = 0;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 10)
+		{
+		nuc[0] = 0;
+		nuc[1] = 1;
+		nuc[2] = 0;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 11)
+		{
+		nuc[0] = 1;
+		nuc[1] = 1;
+		nuc[2] = 0;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 12)
+		{
+		nuc[0] = 0;
+		nuc[1] = 0;
+		nuc[2] = 1;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 13)
+		{
+		nuc[0] = 1;
+		nuc[1] = 0;
+		nuc[2] = 1;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 14)
+		{
+		nuc[0] = 0;
+		nuc[1] = 1;
+		nuc[2] = 1;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 15)
+		{
+		nuc[0] = 1;
+		nuc[1] = 1;
+		nuc[2] = 1;
+		nuc[3] = 1;
+		}
+	else if (nucCode == 16)
+		{
+		nuc[0] = 1;
+		nuc[1] = 1;
+		nuc[2] = 1;
+		nuc[3] = 1;
+		}
+}
+
+void Alignment::print(void) {
+
+	for (int i=0; i<taxonNames.size(); i++)
+		std::cout << taxonNames[i] << std::endl;
+		
+	for (int j=0; j<numChar; j++)
+		{
+		std::cout << "   " << std::setw(4) << j << " -- ";
+		for (int i=0; i<numTaxa; i++)
+			{
+			std::cout << std::setw(4) << matrix[i][j] << " ";
+			}
+		std::cout << std::endl;
+		}
+}
+
+/*-------------------------------------------------------------------
+|
+|   NucID: 
+|
+|   Take a character, nuc, and return an integer:
+|
+|       nuc        returns
+|        A            1 
+|        C            2     
+|        G            4      
+|        T U          8     
+|        R            5      
+|        Y           10       
+|        M            3      
+|        K           12   
+|        S            6     
+|        W            9      
+|        H           11      
+|        B           14     
+|        V            7      
+|        D           13  
+|        N - ?       15       
+|
+-------------------------------------------------------------------*/
+int Alignment::nucID(char nuc) {
+
+	char		n;
+	
+	if (nuc == 'U' || nuc == 'u')
+		n = 'T';
+	else
+		n = nuc;
+
+	if (n == 'A' || n == 'a')
+		{
+		return 1;
+		}
+	else if (n == 'C' || n == 'c')
+		{
+		return 2;
+		}
+	else if (n == 'G' || n == 'g')
+		{
+		return 4;
+		}
+	else if (n == 'T' || n == 't')
+		{
+		return 8;
+		}
+	else if (n == 'R' || n == 'r')
+		{
+		return 5;
+		}
+	else if (n == 'Y' || n == 'y')
+		{
+		return 10;
+		}
+	else if (n == 'M' || n == 'm')
+		{
+		return 3;
+		}
+	else if (n == 'K' || n == 'k')
+		{
+		return 12;
+		}
+	else if (n == 'S' || n == 's')
+		{
+		return 6;
+		}
+	else if (n == 'W' || n == 'w')
+		{
+		return 9;
+		}
+	else if (n == 'H' || n == 'h')
+		{
+		return 11;
+		}
+	else if (n == 'B' || n == 'b')
+		{
+		return 14;
+		}
+	else if (n == 'V' || n == 'v')
+		{
+		return 7;
+		}
+	else if (n == 'D' || n == 'd')
+		{
+		return 13;
+		}
+	else if (n == 'N' || n == 'n')
+		{
+		return 15;
+		}
+	else if (n == '-')
+		{
+		return 15;
+		}
+	else if (n == '?')
+		{
+		return 15;
+		}
+	else
+		return -1;		
+}
+
